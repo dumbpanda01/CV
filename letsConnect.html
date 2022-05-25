@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact me</title>
+</head>
+<body>
+    <h1>Let's Connect : )</h1>
+    <table cellspacng = "30">
+        <thead>
+            <tr>
+                <th>Address :</th> <!--in general terms th provides boldness to the text-->
+                <td>Nauj, Ranchi, Jharkhand - 835205</td>
+            </tr>
+            <tr>
+                <th>Phone : </th>
+                <td>+91 62013 78546</td>
+            </tr>
+        </thead>
+    </table>
+    <hr noshade="">
+    <h3>Socials :- </h3>
+    <ul>
+        <li><a href="https://twitter.com/DumbPanda01" target="_blank">Twitter</a><br></li>
+        <li><a href="https://www.linkedin.com/in/ankit-kumar-788560230/" target="_blank">linkedin</a><br></li>
+        <li><a href="https://github.com/dumbpanda01" target="_blank">GitHub</a><br></li>
+        <li><a href="https://instagram.com/ink_it_kr/" target="_blank">instagram</a><br></li>
+    </ul>
+    <hr noshade="">
+
+    <form action="mailto:ankitkrjaiswal27@gmail.com" name="Message" method="post" enctype="text/plain" target="_blank">  <!-- action will link the form to the backend source -->
+        <!--here in this case action is redirecting to send a mail to to the mail id and the method attribute is with the value post making the below data sent to the mail id after the submit button is clicked -->
+        <!-- the enctype is text/plain is making the data to be put in plain text -->
+
+        <label for="Name"><strong>Your Name : </strong></label>
+        <input type="text" name="yourName" value="" id="Name"><br><br>
+        <label for="email"><strong>Your Email : </strong></label>
+        <input type="email" name="yourEmail" id="email"><br>
+        <label for="message"><h4>Drop your message :- </h4></label>
+        <textarea name="yourMessage" id="message" cols="30" rows="10"></textarea><br>
+        <label for="permission"><strong>Do you want to subscribe for my email newsletter </strong></label>
+        <input type="checkbox" name="" id="permission"><br><br>
+        <input type="submit" name="">
+
+    </form>
+</body>
+</html>
